@@ -316,7 +316,7 @@ body {
       <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    {%- if settings.predictive_search_enabled -%}
+    {%- if settings.predictive_search_enabled 
       <link
         rel="stylesheet"
         href="{{ 'component-predictive-search.css' | asset_url }}"
